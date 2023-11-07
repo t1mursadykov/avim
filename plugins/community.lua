@@ -15,6 +15,10 @@ return {
 
   { import = "astrocommunity.completion.codeium-vim" },
 
+  -- tmux
+  { import = "astrocommunity.terminal-integration.vim-tpipeline" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+
   -- LSP
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
